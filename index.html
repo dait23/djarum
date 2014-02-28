@@ -41,7 +41,27 @@
 <body>
     <div id="top">
     	<div class="row">
-    		<div class="three columns push_seventeen" id="box-login">member login</div>
+    		<div class="three columns push_seventeen" id="box-login">
+    			<div class="active-links">
+            <div id="session">
+            <a id="signin-link" href="#">
+            Member Login
+            </a>
+            </div>
+            	<div id="signin-dropdown">
+        		    <form method="post" id="login-form" action="#">
+            	<label>User ID</label>
+                <input id="username" name="username" value="" type="text" autocomplete="on" placeholder="Beswan/Profesional ID">
+                
+                <label>Password</label>
+                <input id="password" name="password" value="" type="password" placeholder="Type Your Password">
+
+                <input type="submit" value="LOGIN" id="btn-login" />
+                </form>
+         		</div>
+        		</div>
+
+    		</div>
     		<div class="four columns" id="box-search">
     			<form method="post" action="/search" id="search">
                    <input name="q" type="text" size="40"  />
@@ -189,6 +209,26 @@
 	<script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
 	<script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
 	<![endif]-->
-
+ <script type="text/javascript">
+$(document).ready(function () {
+$('.active-links').click(function () {
+        if ($('#signin-dropdown').is(":visible")) {
+            $('#signin-dropdown').hide()
+			$('#session').removeClass('active');
+        } else {
+            $('#signin-dropdown').show()
+			$('#session').addClass('active');
+        }
+		return false;
+    });
+	$('#signin-dropdown').click(function(e) {
+        e.stopPropagation();
+    });
+    $(document).click(function() {
+        $('#signin-dropdown').hide();
+		$('#session').removeClass('active');
+    });
+});     
+</script>
   </body>
 </html>

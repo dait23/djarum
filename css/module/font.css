@@ -41,3 +41,11 @@
          url('font/avenirltstd-medium.ttf') format('truetype'),
          url('font/avenirltstd-medium.svg#AvenirLTStd65Medium') format('svg');
 }
+@font-face {
+    font-family: 'AvenirLTStd65MediumOblique';
+    src: url('font/avenirltstd-mediumoblique.eot');
+    src: url('font/avenirltstd-mediumoblique.eot') format('embedded-opentype'),
+         url('font/avenirltstd-mediumoblique.woff') format('woff'),
+         url('font/avenirltstd-mediumoblique.ttf') format('truetype'),
+         url('font/avenirltstd-mediumoblique.svg#AvenirLTStd65MediumOblique') format('svg');
+}
