@@ -1,0 +1,26 @@
+/*
+We highly recommend you use SASS and write your custom styles in sass/_custom.scss.
+However, this blank file is available if you prefer
+*/
+@import url('module/font.css');
+@import url('module/gumby.css');
+@import url('module/header.css');
+
+/* page*/
+@import url('page/home.css');
+
+
+
+/* Extended base styles (site specific)
+*****************************************************************/
+html { 
+	  position: relative;
+      min-height: 100%;
+	}
+body {
+width: 100%;
+height: 100%;	
+font-family: 'AvenirLTStd45Book', serif;
+background: #fff; /* Old browsers */
+padding-bottom: 100px;
+}

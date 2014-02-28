@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'AvenirLTStd45Book';
+    src: url('font/avenirltstd-book.eot');
+    src: url('font/avenirltstd-book.eot') format('embedded-opentype'),
+         url('font/avenirltstd-book.woff') format('woff'),
+         url('font/avenirltstd-book.ttf') format('truetype'),
+         url('font/avenirltstd-book.svg#AvenirLTStd45Book') format('svg');
+}
+
+
+@font-face {
+    font-family: 'AvenirLTStd55Roman';
+    src: url('font/avenirltstd-roman.eot');
+    src: url('font/avenirltstd-roman.eot') format('embedded-opentype'),
+         url('font/avenirltstd-roman.woff') format('woff'),
+         url('font/avenirltstd-roman.ttf') format('truetype'),
+         url('font/avenirltstd-roman.svg#AvenirLTStd55Roman') format('svg');
+}
+
+@font-face {
+    font-family: 'AvenirLTStd95Black';
+    src: url('font/avenirltstd-black.eot');
+    src: url('font/avenirltstd-black.eot') format('embedded-opentype'),
+         url('font/avenirltstd-black.woff') format('woff'),
+         url('font/avenirltstd-black.ttf') format('truetype'),
+         url('font/avenirltstd-black.svg#AvenirLTStd95Black') format('svg');
+}
+@font-face {
+    font-family: 'AvenirLTStd85Heavy';
+    src: url('font/avenirltstd-heavy.eot');
+    src: url('font/avenirltstd-heavy.eot') format('embedded-opentype'),
+         url('font/avenirltstd-heavy.woff') format('woff'),
+         url('font/avenirltstd-heavy.ttf') format('truetype'),
+         url('font/avenirltstd-heavy.svg#AvenirLTStd85Heavy') format('svg');
+}
+@font-face {
+    font-family: 'AvenirLTStd65Medium';
+    src: url('font/avenirltstd-medium.eot');
+    src: url('font/avenirltstd-medium.eot') format('embedded-opentype'),
+         url('font/avenirltstd-medium.woff') format('woff'),
+         url('font/avenirltstd-medium.ttf') format('truetype'),
+         url('font/avenirltstd-medium.svg#AvenirLTStd65Medium') format('svg');
+}

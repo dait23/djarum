@@ -1,0 +1,65 @@
+
+/* HEADER
+*****************************************************************/
+#top{ width: 100%;  height: 36px; background-color: #00a8c8;float: left;}
+
+header{ width: 100%; height: 89px; background-color: #fff; border-bottom: 1px solid #00a8c8;float: left;}
+#logo{ height: 89px;margin-top: 12px;}
+#foundation{ height: 89px;margin-top: 25px;}
+
+
+
+/* nav
+*****************************************************************/
+nav{ height: 88px; margin-top: 27px;}
+nav ul{ width: 100%; height: auto;}
+nav ul > li { width: auto;height: 13px; float: left; line-height: 10px;text-align: center !important;}
+nav ul > li a{ font-family: 'AvenirLTStd95Black'; font-size: 13px; color:#00a8c8; text-transform: uppercase; margin-right: 8px; margin-left: 8px;}
+nav ul > li:nth-child(-n+5) {
+     border-right: 1px solid #00a8c8;   
+}
+nav ul > li a:hover{ color:#00a8c8;}
+
+/* nav
+*****************************************************************/
+#box-search{ height: 22px;margin-top: 5px;}
+#search { margin-top: 0px; float: right;
+
+}
+
+#search input[type="text"] {
+    background: url(../../img/search.png) no-repeat #fff;
+    background-position: right;
+    border: 0 none;
+    font: normal 11px;
+    color: #00a8c8;
+    width: 121px;
+    height: 22px;
+    padding: 0px 0px 0px 0px;
+    }
+
+#search input[type="text"]:focus {
+    width: 121px;
+    }
+
+
+#box-login{ height: 22px; margin-top: 6px; text-align: right; font-family: 'AvenirLTStd85Heavy'; font-size: 11px; color: #fff; text-transform: capitalize;}
+/* footer
+*****************************************************************/
+
+footer{ width: 100%;  height: 36px; background-color: #00a8c8;  margin-top: 25px;}
+#copy{ height: 22px; margin-top: 8px;}
+#copy p{ margin-left: 30px;font-family: 'AvenirLTStd85Heavy'; font-size: 11px; color: #fff; text-transform: capitalize;}
+#social{ height: 22px; margin-top: 8px;}
+#social p{ font-family: 'AvenirLTStd85Heavy'; font-size: 11px; color: #fff; text-transform: capitalize;float: left;}
+#social ul{ width: auto; height: auto;float: left; margin-left: 20px;}
+#social ul > li{ width: 17px; height: 17px; float: left; margin-right: 17px;}
+#social ul > li a{text-decoration: none;}
+
+
+
+@media only screen and (min-width: 1920px){
+
+footer{ width: 100%;  height: 36px; background-color: #00a8c8; position: fixed; bottom: 0;}
+
+}
